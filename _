@@ -1,0 +1,44 @@
+isim = "o'lmsjon"
+fm = "rustamov"
+t_yil = 2008
+
+
+
+
+from file1 import isim ,fm , t_yil
+
+
+
+isim = "ibrohim "
+fm = "qalandarov "
+t_yil= "2010"
+
+
+
+
+
+
+
+
+print(f"asalomu alaykum {isim} {fm}\nsiz {t_yil}-yilda tugulgansiz")
+
+
+
+
+
+
+
+class BankUser:
+    def init(self, first_name, last_name, age, card_number):
+        self.__first_name = first_name
+        self.__last_name = last_name
+        self.__age = age
+        self.__card_number = card_numberA
+
+    def card_info(self):
+        return f"Foydalanuvchi: {self.first_name} {self.last_name}\nKarta raqami: {self.__card_number}"
+
+
+ozodbek = BankUser(first_name="Ozodbek", last_name="Sobirov", age=16, card_number=4916554409801156)
+
+print(ozodbek.card_info())
